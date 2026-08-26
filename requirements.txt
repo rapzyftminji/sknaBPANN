@@ -1,0 +1,17 @@
+# Beat Pipeline / Yao-ANN SKNA+ECG -> BP dependencies.
+# Install into a fresh venv:
+#     python3 -m venv venv
+#     source venv/bin/activate
+#     pip install -r requirements.txt
+#
+# NOTE: no torch here. The ANN is sklearn's MLPRegressor/MLPClassifier, so this
+# package is much lighter than the CNN-BiLSTM one (cnn_bilstm_training_code).
+
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+matplotlib
+PyQt5
+pyqtgraph
